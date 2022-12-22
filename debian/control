@@ -1,0 +1,24 @@
+Source: r-cran-labeling
+Maintainer: Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>
+Uploaders: Andreas Tille <tille@debian.org>
+Section: gnu-r
+Testsuite: autopkgtest-pkg-r
+Priority: optional
+Build-Depends: debhelper-compat (= 13),
+               dh-r,
+               r-base-dev
+Standards-Version: 4.5.0
+Vcs-Browser: https://salsa.debian.org/r-pkg-team/r-cran-labeling
+Vcs-Git: https://salsa.debian.org/r-pkg-team/r-cran-labeling.git
+Homepage: https://cran.r-project.org/package=labeling
+Rules-Requires-Root: no
+
+Package: r-cran-labeling
+Architecture: all
+Depends: ${R:Depends},
+         ${misc:Depends}
+Recommends: ${R:Recommends}
+Suggests: ${R:Suggests}
+Description: GNU R Axis Labeling optimization
+ This system extends Wilkinsons optimization-based labeling approach to create
+ a more robust, full-featured axis labeler.

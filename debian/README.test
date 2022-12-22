@@ -1,0 +1,5 @@
+Notes on how this package can be tested.
+────────────────────────────────────────
+
+This package can be tested by loading it into R with the command
+‘library(labeling)’ in order to confirm its integrity.

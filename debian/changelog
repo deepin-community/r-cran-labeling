@@ -1,0 +1,77 @@
+r-cran-labeling (0.4.2-1) unstable; urgency=medium
+
+  * Drop Ivo Maintz from Uploaders (Thanks to Ivo for his previous work)
+  * New upstream version
+  * debhelper-compat 13 (routine-update)
+
+ -- Andreas Tille <tille@debian.org>  Sat, 24 Oct 2020 00:05:39 +0200
+
+r-cran-labeling (0.3-4) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Bump debhelper from old 11 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Fix field name typos in debian/copyright.
+
+  [ Andreas Tille ]
+  * Standards-Version: 4.5.0 (routine-update)
+  * Add salsa-ci file (routine-update)
+  * Rules-Requires-Root: no (routine-update)
+
+ -- Andreas Tille <tille@debian.org>  Sat, 16 May 2020 08:00:14 +0200
+
+r-cran-labeling (0.3-3) unstable; urgency=medium
+
+  * Rebuild for R 3.5 transition
+  * debhelper 11
+  * Maintainer: Debian R Packages Maintainers <r-pkg-team@alioth-
+    lists.debian.net>
+  * Point Vcs fields to salsa.debian.org
+  * dh-update-R to update Build-Depends
+
+ -- Andreas Tille <tille@debian.org>  Thu, 31 May 2018 14:13:37 +0200
+
+r-cran-labeling (0.3-2) unstable; urgency=medium
+
+  * Moved packaging from SVN to Git
+  * Standards-Version: 4.1.1
+  * debhelper 10
+  * Convert from cdbs to dh-r
+  * Testsuite: autopkgtest-pkg-r
+  * Secure URI in watch file
+  * Canonical homepage for CRAN packages
+  * Reviewed d/copyright
+
+ -- Andreas Tille <tille@debian.org>  Fri, 20 Oct 2017 10:49:12 +0200
+
+r-cran-labeling (0.3-1) unstable; urgency=medium
+
+  * New upstream version
+  * Normalised source package name
+  * d/rules: Remove redundant get-orig-source target
+
+ -- Andreas Tille <tille@debian.org>  Thu, 28 Aug 2014 09:16:37 +0200
+
+labeling (0.2-1) unstable; urgency=medium
+
+  * New upstream version
+  * cme fix dpkg-control
+  * Add README.test
+
+ -- Andreas Tille <tille@debian.org>  Tue, 01 Jul 2014 17:21:10 +0200
+
+labeling (0.1-2) unstable; urgency=low
+
+  * Rebuild against r-base-dev 3.0
+  * debian/control:
+     - Added myself to Uploaders
+     - normalised format
+     - remove version from Build-Depends r-base-dev
+
+ -- Andreas Tille <tille@debian.org>  Sat, 18 May 2013 13:53:54 +0200
+
+labeling (0.1-1) unstable; urgency=low
+
+  * Initial release (Closes: #700858)
+
+ -- Ivo Maintz <ivo@maintz.de>  Mon, 04 Mar 2013 15:56:45 +0100
